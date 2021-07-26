@@ -1,0 +1,40 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+header {
+    background-color: black;
+    color: wheat;
+    min-height: 6rem;
+    margin: auto;
+    text-align: center;
+    padding-top: 1rem;
+    max-width: 98%;
+    margin-bottom: 1rem;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+}
+canvas {
+    width: 1200px;
+    height: 1200px;
+    background-color: black;
+}
+aside {
+    padding: 2rem;
+    display: flex;
+    font-size: 2rem;
+    flex-direction: column;
+    
+}
+button {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    min-width: 5rem;
+    background-color: gray;
+}
+#playButton{
+    background-color: lightgreen;
+}

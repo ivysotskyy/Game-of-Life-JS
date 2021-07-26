@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Game of Life</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>The Game Of Life</h1>
+        </header>
+        <main>
+            <aside>
+                <label for="fieldSize">Board size:</label>
+                <input name="fieldSize" type="number" maxlenght="1" id="gameFieldSize" value = 50><br/>
+                <label for="gameSpeed">Game speed:</label>
+                <input name="gameSpeed" type="number" maxlength="3" id="gameSpeed" value = 80><br/>
+                <button id="playButton" onclick="Go()" >Go</button>
+                <button onclick="Reset()">Reset</button>
+            </aside>
+            
+            <canvas id="canvas">
+
+            </canvas>
+        </main>
+        <script src="JS/script.js"></script>
+    </body>
+</html>
